@@ -1,0 +1,24 @@
+ 
+ body{
+  background: rgb(232, 230, 237);
+ }
+
+ .cardContainer {
+  background: #d5bdfb;
+  transition: all 1s ease-in-out;
+  border: 2px solid black;
+  border-radius: 11px;
+}
+
+.cardContainer:hover {
+  
+  transform: rotateY(180deg);
+
+}
+.cardText{
+  display: block;
+  transition: all 1s ease-in-out;
+}
+.cardText:hover{
+  transform: rotateY(-180deg);
+}
